@@ -1,11 +1,6 @@
 # δ-ATP Dataset: Towards Fast and Reliable Aerial Traffic Patrol
 
-This dataset accompanies the paper:
-
-**δ-ATP: Towards Fast and Reliable Aerial Traffic Patrol**  
-[Jiaxin Du, Chunyi Peng] — [Purdue University]  
-[MobiSys'25 Dronet],  
-[Link](#)
+This dataset accompanies the paper: **δ-ATP: Towards Fast and Reliable Aerial Traffic Patrol**  
 
 ---
 
@@ -25,6 +20,7 @@ This dataset enables benchmarking for tasks such as:
 ---
 
 ## Dataset Structure
+```
 delta-atp-dataset/
 ├── videos/
 │   ├── patrol_001.mp4
@@ -34,4 +30,8 @@ delta-atp-dataset/
 │   ├── patrol_001_speed.mp4
 │   ├── patrol_002_speed.mp4
 │   └── ...
+```
+
+---
+Note: some of videos does not have ground truth.
 
