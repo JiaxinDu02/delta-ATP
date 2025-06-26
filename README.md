@@ -19,19 +19,40 @@ This dataset enables benchmarking for tasks such as:
 
 ---
 
+## Dataset Access
+
+**Download the dataset here**: [Click to Access OneDrive Folder]([https://your-onedrive-download-link](https://purdue0-my.sharepoint.com/:f:/g/personal/du286_purdue_edu/EnKtk8190XlPkiLPGf4IXroBb-qHDdYHapdgMZdQDdgk6g
+))
+
+--
+
 ## Dataset Structure
 ```
-delta-atp-dataset/
-├── videos/
-│   ├── patrol_001.mp4
-│   ├── patrol_002.mp4
+delta-atp-radargun/
+├── patrol_001/
+│   ├── DJI_001.mp4
+│   ├── radar_001.mp4
+│   ├── fightstats_001.mp4
 │   └── ...
-├── speeds/
-│   ├── patrol_001_speed.mp4
-│   ├── patrol_002_speed.mp4
+├── patrol_002/
+│   ├── DJI_002.mp4
+│   ├── radar_002.mp4
+│   ├── fightstats_001.mp4
 │   └── ...
 ```
 
 ---
 Note: some of videos does not have ground truth.
 
+## Citation
+
+If you use this dataset in your research, please cite:
+
+```bibtex
+@inproceedings{du2025ATP,
+  title={𝛿-ATP: Towards Fast and Reliable Aerial Traffic Patrol},
+  author={Du, Jiaxin and Peng, Chunyi},
+  booktitle={Proceedings of the 11th Workshop on Micro Aerial Vehicle Networks, Systems, and Applications},
+  year={2025}
+}
+```
